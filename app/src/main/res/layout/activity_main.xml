@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#0f172a">
+    <TextView android:id="@+id/title" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="🛡️ SecScan Native"
+        android:textSize="22sp" android:textStyle="bold" android:textColor="#fff" android:gravity="center" android:paddingBottom="12dp"/>
+    <Button android:id="@+id/btn_perms" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🔍 Escanear Permisos" android:backgroundTint="#3b82f6" android:textColor="#fff" android:layout_marginBottom="8dp"/>
+    <Button android:id="@+id/btn_active" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🔄 Apps Activas / Caídas" android:backgroundTint="#8b5cf6" android:textColor="#fff" android:layout_marginBottom="8dp"/>
+    <Button android:id="@+id/btn_stats" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📊 Stats del Sistema" android:backgroundTint="#10b981" android:textColor="#fff" android:layout_marginBottom="12dp"/>
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:divider="#334155" android:dividerHeight="1dp"/>
+</LinearLayout>
